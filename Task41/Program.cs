@@ -4,6 +4,10 @@
 //0, 7, 8, -2, -2 -> 2
 //-1, -7, 567, 89, 223-> 3
 
+
+Console.WriteLine("Введите кол-во чисел:");
+int size = Convert.ToInt32(Console.ReadLine());
+
 int[] CreateArrayInt (int size)
 {
     int[] array = new int[size];
